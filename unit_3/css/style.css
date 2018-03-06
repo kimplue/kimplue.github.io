@@ -1,69 +1,93 @@
-h1{color:black;
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+h1{
+color: #D1B184;
 text-align: center;
-font-family:tahoma;
-font-size: 50px
+font-family:'Roboto Condensed', sans-serif, bold;
+text-transform: uppercase;
+font-size: 5em
+}
+
+body{
+	background-repeat: no-repeat;
+	background-color: #384357;
+	width:100%;
+	font-family: 'Lora', serif;
+	color:white;
+	text-align: left; 
+	font-size: 16px;
+	font-weight:3em;
+
+}
+a{
+	text-decoration: none;
+	border-bottom:1px;
+	padding-bottom:1.5px;
 }
 
 nav{
-text-align:center;
-text-decoration: underline;
-font-family: tahoma;
-padding-left: 50px;
+	text-align: center;
+}
 
+h3{
+	font: 'Roboto Condensed', sans-serif, bold;
+	color: white;
+	width: 100%;
+	font-size:2em;
+	line-height: 1.5em
+	width: 800px;
+}
+
+
+#intro{
+ 	text-align: center;
+ }
+
+.navlink{
+color: white;
+color:white;
+font-family: 'Roboto Condensed', sans-serif, bold;
+padding-left:75px;
+font-size:1.5em;
+text-transform: uppercase;
+letter-spacing: 1.5px;
 }
 
 #slogan{
-	color:white;
+	color: #D1B184;
 	text-align:center;
-	font-size:35px;
-	font-family: tahoma; font-style:italic;
-}
-
-#intro{
-	color:red;
-}
-body{
-	color: white;
-	background-color: #2278AD;
-	font-family: tahoma, sans-serif;
-	font-size: 16px;
-}
-
-h3{color:white;
-	text-align: left;
-	font-family:tahoma;
+	font-size:3em;
+	font-family: 'Roboto Condensed', sans-serif; 
+	letter-spacing: 2px;
 
 }
 
-ul{font-family:tahoma;
+.intro{
+	text-align: center;
 }
 
-img{
-	width:100%
+
+ul{font-family:'Lora', serif;
 }
+
 
 #classroom{
-	width:50%;
-	display:block;
-	margin:0 auto;
+	width:50%; display:block; margin:0 auto;
 }
 #library{
-	width: 50%;
-	display: block; margin:0 auto;
+	width: 50%; display: block; margin:0 auto;
 }
 #calendar{
 width:50%; display:block;margin:0 auto;
 }
 
-a{ 
-font-family: tahoma;
-font-style: bold
-}
-
 footer{
-	font-family: tahoma; 
+	font-family: 'Lora', serif; 
 	text-align: center;
-	background-color: black;
+	background-color: #384357;
 	color: white;
 	font-style: bold;
 }
