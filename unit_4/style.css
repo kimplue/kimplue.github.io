@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tauri');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
+
 h1{
 color: #D1B184;
 text-align: center;
@@ -21,7 +22,6 @@ body{
 	font-weight:3em;
 
 }
-
 
 span{
 	text-transform: uppercase;
@@ -100,12 +100,19 @@ letter-spacing: 1.5px;
 width:50%; display:block;margin:0 auto;
 }
 
+.team{
+	width:800px;
+	display:block;
+	margin: 0 auto;
+	}
+
 #kim{
-	width:30%;
+	width:20%;
 	display:block;
 }
+
 #tate{
-	width:30%;
+	width:20%;
 	display:block;
 }
 
