@@ -30,6 +30,8 @@ font-size: 5em
 }
 
 body{
+	background-image: url('../images/hero-bg.jpg');
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #384357;
 	font-family: 'Lora', serif;
@@ -50,13 +52,17 @@ a{
 	border-bottom:1px;
 	padding-bottom:1.5px;
 }
+a:hover{
+	background-color:red;
+}
 
 nav{
-	background-color: #E8C66A;
 	border:1px black solid;
-	padding:20px;
+	padding:10px;
 	text-align: center;
+	float: none;
 }
+
 
 h2{
 	font-size:3em;
