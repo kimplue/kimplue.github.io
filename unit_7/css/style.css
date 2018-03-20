@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+h1{
+color: #D1B184;
+text-align: center;
+font-family:'Roboto Condensed', sans-serif, bold;
+text-transform: uppercase;
+font-size: 5em;
+padding: 0 5px;
+line-height: 2em;
+}
+
+
+nav a:link {
+color: white;
+font-family: 'Roboto Condensed', sans-serif, bold;
+margin:35px;
+font-size:1.5em;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+text-decoration: none;
+}
+nav a:visited{	
+	color: white;
+}
+nav a:hover{
+	border-bottom:2px solid white;
+}
+nav a: active{
+	color: white;
+}
+
+a{
+	border-bottom:1px;
+	padding-bottom:1.5px;
+	color:white;
+	}
+
+h2{
+	font-size:4em;
+	text-align: center
+}
+h3{
+	font: 'Roboto Condensed', sans-serif, bold;
+	color: white;
+	width: 100%;
+	font-size:3em;
+	line-height: 1.5em
+	width: 800px;
+	text-align:center;
+	padding: 20px 0;
+}
+h4{
+	font-size:2em;
+	font-family: 'Roboto Condensed', sans-serif, bold;
+	color: #D1B184;
+	text-align: center;
+	padding: 5px 0;
+}
+
+body{
+	background-image: url('../images/hero-bg.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #384357;
+	font-family: 'Lora', serif;
+	color:white;
+	text-align: left; 
+	font-size: 17px;
+	font-weight:3em;
+	line-height: 1.2em;
+
+}
+
+span{
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height:0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear:both;
+}
+
+.biotext{
+	font-style:bold;
+	color:#D1B184;
+}
+
+
+nav{
+    border: 1px white solid;
+    padding: 20px;
+	text-align: center;
+}
+
+ul{
+	font-family:'Lora', serif;
+}
+
+
+#slogan{
+	color: #D1B184;
+	text-align:center;
+	font-size:3em;
+	font-family: 'Roboto Condensed', sans-serif; 
+	letter-spacing: 2px;
+	padding:30px;
+}
+
+.intro{
+	display:block; margin:0 auto;
+	width: 900px;
+	text-align: center;
+	font-size:2em;
+	line-height: 1.2em;
+	margin-bottom:20px;
+}
+
+.description{
+	width: 800px;
+	display:block; margin:0 auto;
+	text-align: left;	
+	margin-bottom:20px;
+}
+
+#classroom{
+	width:33%; display:block;
+	float:left;
+	margin:2px;
+	background-color: violet;
+}
+#library{
+	width: 33%; display: block;
+	float:left;
+	margin:2px;
+}
+
+#calendar{
+width:33%; display:block;
+float:left;
+margin:2px;
+}
+
+.bios{
+	width:44%;
+	padding:2%;
+	margin:1%;
+	float:left;
+	outline:2px solid #D1B184;
+	background-color: #4f6387;
+}
+
+.biopic{
+	width:33%;
+	padding-bottom: 2%;
+	display:block; margin:auto;
+	text-align: center;
+}
+
+footer{
+	border: 1px black solid;
+	font-family: 'Lora', serif; 
+	text-align: right;
+	background-color: #D1B184;
+	color: white;
+	font-style: bold;
+	padding:20px;
+	clear:both;
+}
