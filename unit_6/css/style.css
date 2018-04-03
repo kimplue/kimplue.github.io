@@ -9,18 +9,17 @@ text-align: center;
 font-family:'Roboto Condensed', sans-serif, bold;
 text-transform: uppercase;
 font-size: 5em;
-padding: 0 5px;
+padding: 0 5em;
 line-height: 2em;
 }
 
 
 nav a:link {
-color: white;
+color: red;
 font-family: 'Roboto Condensed', sans-serif, bold;
 margin:35px;
 font-size:1.5em;
 text-transform: uppercase;
-letter-spacing: 1.5px;
 text-decoration: none;
 }
 nav a:visited{	
@@ -117,7 +116,7 @@ ul{
 
 .intro{
 	display:block; margin:0 auto;
-	width: 900px;
+	width: 70%;
 	text-align: center;
 	font-size:2em;
 	line-height: 1.2em;
@@ -125,7 +124,7 @@ ul{
 }
 
 .description{
-	width: 800px;
+	width: 65%;
 	display:block; margin:0 auto;
 	text-align: left;	
 	margin-bottom:20px;
@@ -174,4 +173,17 @@ footer{
 	font-style: bold;
 	padding:20px;
 	clear:both;
+}
+
+@media only screen and (max-width: 800px) {
+	nav{
+		float: none;
+	}
+
+	nav a{
+		margin: 0 1.5em .75em 0;
+	}
+
+
+
 }
